@@ -17,7 +17,7 @@ if ($nbEtabOffrantChambres!=0)
    $req=obtenirReqIdNomEtablissementsOffrantChambres();
    $hote="localhost";
    $login="festival";
-   $mdp="secret";
+   $mdp="J'aimeraisbeaucoupunmotdepassepourletpsi7";
    $bd="festival";
    $connexion=mysql_connect($hote,$login,$mdp);
    if ($connexion)

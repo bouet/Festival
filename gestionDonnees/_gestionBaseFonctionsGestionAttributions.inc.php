@@ -8,7 +8,7 @@ function modifierAttribChamb($idEtab,$idTypeChambre,$idGroupe,$nbChambres)
 {
    $hote="localhost";
    $login="festival";
-   $mdp="secret";
+   $mdp="J'aimeraisbeaucoupunmotdepassepourletpsi7";
    $bd="festival";
    $connexion=mysql_connect($hote,$login,$mdp);
    if ($connexion)
@@ -79,7 +79,7 @@ function obtenirNbOccupGroupe($idEtab, $idTypeChambre, $idGroupe)
 {
    $hote="localhost";
    $login="festival";
-   $mdp="secret";
+   $mdp="J'aimeraisbeaucoupunmotdepassepourletpsi7";
    $bd="festival";
    $connexion=mysql_connect($hote,$login,$mdp);
    if ($connexion)

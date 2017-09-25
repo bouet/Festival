@@ -33,7 +33,7 @@ function obtenirDetailEtablissement($id)
 {
    $hote="localhost";
    $login="festival";
-   $mdp="secret";
+   $mdp="J'aimeraisbeaucoupunmotdepassepourletpsi7";
    $bd="festival";
    $connexion=mysql_connect($hote,$login,$mdp);
    if ($connexion)
@@ -58,7 +58,7 @@ function supprimerEtablissement($id)
 {
    $hote="localhost";
    $login="festival";
-   $mdp="secret";
+   $mdp="J'aimeraisbeaucoupunmotdepassepourletpsi7";
    $bd="festival";
    $connexion=mysql_connect($hote,$login,$mdp);
    if ($connexion)
@@ -88,7 +88,7 @@ function creerModifierEtablissement($mode, $id, $nom, $adresseRue, $codePostal,
 {  
    $hote="localhost";
    $login="festival";
-   $mdp="secret";
+   $mdp="J'aimeraisbeaucoupunmotdepassepourletpsi7";
    $bd="festival";
    $connexion=mysql_connect($hote,$login,$mdp);
    if ($connexion)
@@ -136,7 +136,7 @@ function estUnIdEtablissement($id)
 {
    $hote="localhost";
    $login="festival";
-   $mdp="secret";
+   $mdp="J'aimeraisbeaucoupunmotdepassepourletpsi7";
    $bd="festival";
    $connexion=mysql_connect($hote,$login,$mdp);
    if ($connexion)
@@ -163,7 +163,7 @@ function estUnNomEtablissement($mode, $id, $nom)
 {
    $hote="localhost";
    $login="festival";
-   $mdp="secret";
+   $mdp="J'aimeraisbeaucoupunmotdepassepourletpsi7";
    $bd="festival";
    $connexion=mysql_connect($hote,$login,$mdp);
    if ($connexion)
@@ -200,7 +200,7 @@ function obtenirNbEtab()
 {
    $hote="localhost";
    $login="festival";
-   $mdp="secret";
+   $mdp="J'aimeraisbeaucoupunmotdepassepourletpsi7";
    $bd="festival";
    $connexion=mysql_connect($hote,$login,$mdp);
    if ($connexion)
@@ -227,7 +227,7 @@ function obtenirNbEtabOffrantChambres()
 {
    $hote="localhost";
    $login="festival";
-   $mdp="secret";
+   $mdp="J'aimeraisbeaucoupunmotdepassepourletpsi7";
    $bd="festival";
    $connexion=mysql_connect($hote,$login,$mdp);
    if ($connexion)
@@ -275,7 +275,7 @@ function obtenirLibelleTypeChambre($id)
 {
    $hote="localhost";
    $login="festival";
-   $mdp="secret";
+   $mdp="J'aimeraisbeaucoupunmotdepassepourletpsi7";
    $bd="festival";
    $connexion=mysql_connect($hote,$login,$mdp);
    if ($connexion)
@@ -303,7 +303,7 @@ function obtenirNbTypesChambres()
 {
    $hote="localhost";
    $login="festival";
-   $mdp="secret";
+   $mdp="J'aimeraisbeaucoupunmotdepassepourletpsi7";
    $bd="festival";
    $connexion=mysql_connect($hote,$login,$mdp);
    if ($connexion)
@@ -331,7 +331,7 @@ function supprimerTypeChambre($id)
 {
    $hote="localhost";
    $login="festival";
-   $mdp="secret";
+   $mdp="J'aimeraisbeaucoupunmotdepassepourletpsi7";
    $bd="festival";
    $connexion=mysql_connect($hote,$login,$mdp);
    if ($connexion)
@@ -356,7 +356,7 @@ function obtenirDetailTypeChambre($id)
 {
    $hote="localhost";
    $login="festival";
-   $mdp="secret";
+   $mdp="J'aimeraisbeaucoupunmotdepassepourletpsi7";
    $bd="festival";
    $connexion=mysql_connect($hote,$login,$mdp);
    if ($connexion)
@@ -383,7 +383,7 @@ function creerModifierTypeChambre($mode, $id, $libelle)
 {
    $hote="localhost";
    $login="festival";
-   $mdp="secret";
+   $mdp="J'aimeraisbeaucoupunmotdepassepourletpsi7";
    $bd="festival";
    $connexion=mysql_connect($hote,$login,$mdp);
    if ($connexion)
@@ -419,7 +419,7 @@ function estUnIdTypeChambre($id)
 {
    $hote="localhost";
    $login="festival";
-   $mdp="secret";
+   $mdp="J'aimeraisbeaucoupunmotdepassepourletpsi7";
    $bd="festival";
    $connexion=mysql_connect($hote,$login,$mdp);
    if ($connexion)
@@ -445,7 +445,7 @@ function estUnLibelleTypeChambre($mode, $id, $libelle)
 {
    $hote="localhost";
    $login="festival";
-   $mdp="secret";
+   $mdp="J'aimeraisbeaucoupunmotdepassepourletpsi7";
    $bd="festival";
    $connexion=mysql_connect($hote,$login,$mdp);
    if ($connexion)
@@ -491,7 +491,7 @@ function obtenirNomGroupe($id)
 {
    $hote="localhost";
    $login="festival";
-   $mdp="secret";
+   $mdp="J'aimeraisbeaucoupunmotdepassepourletpsi7";
    $bd="festival";
    $connexion=mysql_connect($hote,$login,$mdp);
    if ($connexion)
@@ -523,7 +523,7 @@ function modifierOffreHebergement($idEtab,$idTypeChambre,$nbChambresDemandees)
 {
    $hote="localhost";
    $login="festival";
-   $mdp="secret";
+   $mdp="J'aimeraisbeaucoupunmotdepassepourletpsi7";
    $bd="festival";
    $connexion=mysql_connect($hote,$login,$mdp);
    if ($connexion)
@@ -566,7 +566,7 @@ function obtenirNbOffre($idEtab, $idTypeChambre)
 {
    $hote="localhost";
    $login="festival";
-   $mdp="secret";
+   $mdp="J'aimeraisbeaucoupunmotdepassepourletpsi7";
    $bd="festival";
    $connexion=mysql_connect($hote,$login,$mdp);
    if ($connexion)
@@ -609,7 +609,7 @@ function existeAttributionsEtab($id)
 {
    $hote="localhost";
    $login="festival";
-   $mdp="secret";
+   $mdp="J'aimeraisbeaucoupunmotdepassepourletpsi7";
    $bd="festival";
    $connexion=mysql_connect($hote,$login,$mdp);
    if ($connexion)
@@ -636,7 +636,7 @@ function existeAttributionsTypeChambre($id)
 {
    $hote="localhost";
    $login="festival";
-   $mdp="secret";
+   $mdp="J'aimeraisbeaucoupunmotdepassepourletpsi7";
    $bd="festival";
    $connexion=mysql_connect($hote,$login,$mdp);
    if ($connexion)
@@ -664,7 +664,7 @@ function obtenirNbOccup($idEtab, $idTypeChambre)
 {
    $hote="localhost";
    $login="festival";
-   $mdp="secret";
+   $mdp="J'aimeraisbeaucoupunmotdepassepourletpsi7";
    $bd="festival";
    $connexion=mysql_connect($hote,$login,$mdp);
    if ($connexion)
